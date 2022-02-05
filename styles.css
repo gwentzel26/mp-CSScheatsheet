@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(53, 50, 50);
+}
+
+h1 {
+    text-align: center;
+}
+h1,
+ h2,
+  h3 {
+    color: rgb(190, 23, 190);
+}
+
+header p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.table {
+    display: flex;
+    flex: 3 0 30%;
+    display: inline-block;
+    border: 10px dashed white;
+    border-width: thin;
+    margin: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+main p {
+    /* background-color: rgb(190, 23, 190);; */
+    background-image: linear-gradient(pink, purple);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(190, 23, 190);;
+    border-style: thin;
+    border-radius: 5px;
+    linear-gradient: (45deg, blue, red);
+}
+
+main h2 {
+    border: 10px solid white;
+    border-radius: 10px;
+    border-width: thin;
+    padding: 20px;
+    
+}
+
+.chart {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+}
