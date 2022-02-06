@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Cheatsheet</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -24,11 +25,11 @@
                 <div>
                     <h3>Use these three properties to create a flexbox row layout</h3>
                         <p class="purple-cloud">
-                            .row {
-                                display: flex;
-                                flex-direction: row;
-                                flex-wrap: wrap;
-                            }
+                            .row { <br>
+                                display: flex; <br>
+                                flex-direction: row; <br>
+                                flex-wrap: wrap; <br>
+                            } <br>
                         </p>
                 </div>
         </div>
@@ -38,10 +39,10 @@
                 <div>
                     <h3>Use this to create a flexbox column layout</h3>
                         <p class="purple-cloud">
-                            .column {
-                                display: flex;
-                                flex-direction: column;
-                            }
+                            .column { <br>
+                                display: flex; <br>
+                                flex-direction: column; <br>
+                            } <br>
                         </p>
                     
                 </div>
@@ -52,11 +53,11 @@
                 <div>
                     <h3>Build a 12-column layout using CSS Grid</h3>
                         <p class="purple-cloud">
-                            .grid {
-                                display: grid;
-                                width: 100%;
-                                grid-template-columns: repeat(12, 1fr)
-                            }
+                            .grid { <br>
+                                display: grid; <br>
+                                width: 100%; <br>
+                                grid-template-columns: repeat(12, 1fr) <br>
+                            } <br>
                         </p>
                     
                 </div>
@@ -67,12 +68,12 @@
                 <div>
                     <h3>This will create a background linear gradient from top to bottom</h3>
                         <p class="purple-cloud">
-                            .linear-gradient-background {
-                                background-image: linear-gradient(
-                                    rgba(232, 102, 236, 0.3) 0% 
-                                    rgba(232, 102, 236, 0.6) 100%
-                                    );
-                                }
+                            .linear-gradient-background { <br>
+                                background-image: linear-gradient( <br>
+                                    rgba(232, 102, 236, 0.3) 0% <br>
+                                    rgba(232, 102, 236, 0.6) 100% <br>
+                                    ); <br>
+                                } <br>
                         </p>
                      
                 </div>
@@ -83,17 +84,17 @@
                 <div>
                     <h3>Use transition and block shadows to glow on hover</h3>
                         <p class="purple-cloud">
-                            .code-card .card-header {
-                                border-radius: 8px; 
-                                tansition: all 0.5s ease-in-out;
-                            }
+                            .code-card .card-header { <br>
+                                border-radius: 8px; <br>
+                                tansition: all 0.5s ease-in-out;<br>
+                            } <br>
                         </p>
                         <p class="purple-cloud">
-                            .code-card:hover, .code-card:hover .card-header {
-                                box-shadow: inset 0px 0px 8px
-                                rgba(232, 102, 236, 1), 0 0 15px 
-                                rgba(232, 102, 236, 1);
-                                }
+                            .code-card:hover, .code-card:hover .card-header { <br>
+                                box-shadow: inset 0px 0px 8px <br>
+                                rgba(232, 102, 236, 1), 0 0 15px <br>
+                                rgba(232, 102, 236, 1); <br>
+                                } <br>
                         </p>
                    
                 </div>
@@ -104,10 +105,10 @@
                 <div>
                     <h3>Use position properties and negative margins to raise elements higher than their natural starting point.</h3>
                         <p class="purple-cloud">
-                            .card-header {
-                                position: relative; 
-                                margin-top: -20px;
-                            }
+                            .card-header { <br>
+                               <span class="indented">position: relative;</span>  <br>
+                                <span class="indented">margin-top: -20px;</span> <br>
+                            } <br>
                         </p>
                     
                 </div>
@@ -120,9 +121,7 @@
 
 <footer>
 
-<h2>Made With heart icon and CSS</h2>
-
-
+<h2>Made With <i class="material-icons">favorite</i> and CSS</h2>
 
 </footer>
 

@@ -19,9 +19,13 @@ header p {
     margin-left: 25%;
     margin-right: 25%;
 }
+.indented { 
+    padding-left: 20pt; }
+    /* padding-right: 25pt; }  */
 
 .table {
     display: flex;
+    flex-wrap: wrap;
     flex: 3 0 30%;
     display: inline-block;
     border: 10px dashed white;
@@ -29,9 +33,12 @@ header p {
     margin: 20px;
     margin-right: 20px;
     padding: 10px;
+
+
 }
 
-p {
+p,
+ span{
     color: white;
     font-size: 12px;
     font-family: sans-serif;
@@ -45,7 +52,7 @@ main p {
     border: 2px solid rgb(190, 23, 190);;
     border-style: thin;
     border-radius: 5px;
-    linear-gradient: (45deg, blue, red);
+    
 }
 
 main h2 {
@@ -71,6 +78,13 @@ main h2 {
 
 
 
+
+
 footer {
     text-align: center;
+}
+
+.material-icons {
+    color: rgb(200, 1, 1);
+    border: 2px solid rgb(160, 2, 2);
 }
